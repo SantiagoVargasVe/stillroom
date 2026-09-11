@@ -16,6 +16,10 @@ export default tseslint.config(
     plugins: { "react-hooks": reactHooks, "react-refresh": reactRefresh },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      "max-lines": [
+        "error",
+        { max: 100, skipBlankLines: false, skipComments: false },
+      ],
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },

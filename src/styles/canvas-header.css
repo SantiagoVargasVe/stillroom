@@ -1,0 +1,44 @@
+.canvas-column {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  background: #eef0e8;
+}
+.canvas-header {
+  min-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e2e6dc;
+  background: #f9faf6;
+}
+.file-label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  min-width: 0;
+  color: #88927e;
+  font-size: 11px;
+}
+.file-label > span:first-of-type {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #69745f;
+}
+.file-label svg {
+  flex-shrink: 0;
+}
+.badge {
+  font-size: 7px;
+  letter-spacing: 0.7px;
+  border: 1px solid #dce3d1;
+  color: #839173;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+.badge.raw {
+  background: #ebedda;
+}

@@ -1,0 +1,58 @@
+.ratio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 7px;
+}
+.ratio-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  height: 53px;
+  border: 1px solid #e6eadd;
+  border-radius: 5px;
+  color: #8b947f;
+  font-size: 10px;
+}
+.ratio-button:hover {
+  background: #f5f7ee;
+}
+.ratio-button.active {
+  border-color: #9eb18a;
+  background: #f0f4e7;
+  color: #526d40;
+}
+.ratio-shape {
+  width: 20px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+}
+.ratio-shape i {
+  display: block;
+  width: 17px;
+  height: 12px;
+  border: 1px solid currentColor;
+  border-radius: 1px;
+}
+.shape-1-1 i {
+  width: 14px;
+  height: 14px;
+}
+.shape-16-9 i {
+  width: 19px;
+  height: 10px;
+}
+.shape-4-5 i {
+  width: 12px;
+  height: 15px;
+}
+.shape-9-16 i {
+  width: 9px;
+  height: 16px;
+}
+.shape-3-2 i {
+  width: 18px;
+  height: 12px;
+}

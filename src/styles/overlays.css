@@ -1,0 +1,53 @@
+.busy-overlay,
+.drop-overlay {
+  position: fixed;
+  inset: 0;
+  background: #f4f7edf2;
+  backdrop-filter: blur(8px);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #5e7950;
+  padding: 24px;
+  text-align: center;
+}
+.busy-overlay strong {
+  font-weight: 500;
+}
+.busy-overlay > span {
+  font-size: 12px;
+  color: #95a584;
+}
+.spin {
+  animation: spin 1.3s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.drop-overlay {
+  pointer-events: none;
+  background: #f4f7edef;
+}
+.drop-overlay > div {
+  padding: 80px;
+  border: 2px dashed #9eb788;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.drop-overlay h2 {
+  font-family: Georgia, serif;
+  font-size: 35px;
+  margin: 0;
+}
+.drop-overlay p {
+  margin: 0;
+  color: #9ba98b;
+}

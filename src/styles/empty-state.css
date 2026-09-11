@@ -1,0 +1,29 @@
+.empty-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  color: #95a089;
+  padding: 35px;
+  text-align: center;
+}
+.empty-photo strong {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #52654b;
+}
+.empty-photo > span:not(.button) {
+  font-size: 11px;
+}
+.empty-photo > .button {
+  margin-top: 8px;
+}
+.stage-error {
+  position: absolute;
+  bottom: 10px;
+  background: #fff0e9;
+  color: #a4593f;
+  padding: 10px;
+  font-size: 12px;
+}

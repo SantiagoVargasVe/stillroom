@@ -1,0 +1,55 @@
+.adjustment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.slider-field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 11px;
+  color: #71815f;
+}
+.slider-field > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.slider-field output {
+  color: #8f9c7c;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #f1f4ea;
+}
+input[type="range"] {
+  width: 100%;
+  accent-color: #6d8553;
+  height: 4px;
+  cursor: pointer;
+  margin: 3px 0;
+}
+.range-labels {
+  margin-top: -4px;
+  color: #abb49e;
+}
+.range-labels small {
+  font-size: 8px;
+}
+.look-buttons {
+  display: flex;
+  gap: 8px;
+}
+.look-buttons button {
+  flex: 1;
+  font-size: 11px;
+  border: 1px solid #e0e6d4;
+  border-radius: 5px;
+  padding: 10px;
+  color: #80916b;
+}
+.look-buttons button:hover {
+  background: #eff3e6;
+}

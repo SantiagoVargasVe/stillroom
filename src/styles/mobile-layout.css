@@ -1,0 +1,57 @@
+@media (max-width: 520px) {
+  body {
+    min-width: 360px;
+  }
+  .brand {
+    font-size: 25px;
+  }
+  .brand-mark {
+    width: 31px;
+    height: 31px;
+    border-radius: 8px;
+  }
+  .privacy-pill {
+    font-size: 10px;
+  }
+  .header-right {
+    gap: 10px;
+  }
+  .app-header {
+    padding: 0 5%;
+  }
+  main {
+    padding: 25px 4% 0;
+  }
+  .eyebrow {
+    font-size: 8px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .intro p {
+    font-size: 11px;
+  }
+  .mode-tabs {
+    gap: 2px;
+  }
+  .mode-tabs button {
+    padding: 9px;
+    font-size: 11px;
+    gap: 6px;
+  }
+  .mode-tabs svg {
+    width: 14px;
+  }
+  .button.open-button {
+    font-size: 11px;
+    padding: 9px 11px;
+    gap: 5px;
+  }
+  .workspace-toolbar .text-sm {
+    display: none;
+  }
+  .workspace-toolbar {
+    justify-content: flex-end;
+    min-height: 59px;
+  }
+}

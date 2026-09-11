@@ -80,12 +80,15 @@ Without that file, the RAW integration test is explicitly skipped; all other tes
 
 ## Code map
 
-- `src/App.tsx`: file import, sample, workspace tabs, privacy/help, error/loading states, and resource ownership.
-- `src/components/PhotoEditor.tsx`: crop/composition controls, edit history, previews, and export dialog.
-- `src/components/VideoStudio.tsx`: local video playback, seeking, captures, and transfer to the editor.
-- `src/lib/media.ts`: shared canvas rendering, pixel adjustments, crop geometry, encoding, and download helpers.
-- `src/lib/raw.ts`: lazy RAW decoding with timeout and worker disposal.
-- `scripts/sync-vendor.mjs`: local decoder asset preparation.
+- `src/App.tsx`: page composition, with no effects or media processing.
+- `src/features/workspace`: import lifecycle, source ownership, and workspace reducer.
+- `src/features/photo`: history reducer, canvas preview, and focused editor controls.
+- `src/features/video`: playback events, capture lifecycle, and video controls.
+- `src/features/export`: export options, encoding, and download actions.
+- `src/lib`: focused modules for media types, geometry, pixels, decoding, and downloads.
+- `src/styles`: component styles and responsive overrides, preserving cascade order.
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for state/effect conventions and the enforced **100-line maximum** for authored files. `npm run lint` checks both file size and React rules. GitHub Actions runs lint and browser tests.
 
 ## Credits
 

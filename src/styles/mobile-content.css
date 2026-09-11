@@ -1,0 +1,72 @@
+@media (max-width: 520px) {
+  .benefits {
+    grid-template-columns: 1fr;
+    padding: 22px 10px 10px;
+    gap: 18px;
+  }
+  .benefits > div {
+    justify-content: flex-start;
+    gap: 14px;
+  }
+  .benefits p {
+    font-size: 10px;
+  }
+  .benefits strong {
+    font-size: 11px;
+  }
+  .app-footer {
+    padding-top: 24px;
+    font-size: 8px;
+  }
+  .local-indicator {
+    width: 100%;
+    margin: 0;
+  }
+  .video-stage {
+    min-height: 290px;
+    height: 300px;
+  }
+  .video-empty {
+    padding: 25px 10px;
+    gap: 13px;
+  }
+  .video-empty strong {
+    font-size: 24px;
+  }
+  .video-empty > span:not(.button) {
+    font-size: 11px;
+  }
+  .timeline {
+    padding: 15px;
+  }
+  .seek-field {
+    font-size: 8px;
+    gap: 6px;
+  }
+  .seek-field input {
+    width: 65px;
+  }
+  .capture-tray {
+    padding: 17px;
+  }
+  .capture-placeholder {
+    text-align: center;
+    font-size: 11px;
+    padding: 20px 10px;
+  }
+  .modal-content {
+    padding: 23px 19px;
+  }
+  .modal h2 {
+    font-size: 23px;
+  }
+  .adjustment-list {
+    grid-column: 1/-1;
+  }
+  .drop-overlay > div {
+    padding: 50px 20px;
+  }
+  .drop-overlay h2 {
+    font-size: 28px;
+  }
+}

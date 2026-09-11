@@ -1,0 +1,76 @@
+.icon-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #7e887d;
+}
+.icon-button:hover:not(:disabled),
+.icon-button.selected {
+  background: #e7ecdf;
+  color: #315541;
+}
+.help-button {
+  border: 1px solid #e1e6db;
+  background: white;
+  border-radius: 50%;
+}
+main {
+  max-width: 1536px;
+  margin: auto;
+  padding: 36px 4% 0;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #7d8a76;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+  margin-bottom: 9px;
+}
+.eyebrow > span {
+  width: 12px;
+  height: 1px;
+  background: #869577;
+}
+h1 {
+  font-size: clamp(25px, 2.6vw, 39px);
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -1.3px;
+  margin: 0;
+}
+h1 em {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: #7c8d66;
+  letter-spacing: -1.4px;
+}
+.intro p {
+  color: #8a9087;
+  font-size: 12px;
+  margin: 11px 0 0;
+}
+.intro-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 5px;
+  color: #8d9685;
+  font-size: 11px;
+  line-height: 1.7;
+}
+.intro-note strong {
+  color: #627259;
+  font-weight: 500;
+}
