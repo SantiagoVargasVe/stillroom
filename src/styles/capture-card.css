@@ -1,0 +1,40 @@
+.capture-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.capture-card {
+  background: #fff;
+  border: 1px solid #e2e9d7;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.capture-card img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: contain;
+  background: #eaf0e1;
+}
+.capture-caption {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px 0;
+  color: #78935f;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+.capture-caption small {
+  color: #a0b18c;
+  font-size: 8px;
+}
+.capture-actions {
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+}
+.capture-actions .text-button {
+  margin-right: auto;
+}
+[hidden] {
+  display: none !important;
+}

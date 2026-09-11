@@ -1,0 +1,60 @@
+.app {
+  min-height: 100vh;
+}
+.app-header {
+  height: 86px;
+  padding: 0 4%;
+  border-bottom: 1px solid #e3e7de;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #fafbf7;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 650;
+  font-size: 28px;
+  letter-spacing: -1.3px;
+}
+.brand-mark {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: #315541;
+  color: white;
+}
+.brand-period {
+  color: #809266;
+}
+.header-tagline {
+  border-left: 1px solid #dce2d8;
+  padding-left: 28px;
+  color: #8a9189;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.privacy-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6a7768;
+  font-size: 11px;
+}
+.status-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #819e68;
+  flex-shrink: 0;
+}

@@ -1,6 +1,7 @@
 import { createId } from "./id";
 import type LibRaw from "libraw-wasm";
-import { canvas2d, checkDimensions, type Photo } from "./media";
+import { canvas2d, checkDimensions } from "./canvas";
+import type { Photo } from "./types";
 
 export async function decodeRaw(file: File): Promise<Photo> {
   const moduleUrl = new URL(

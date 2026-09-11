@@ -1,0 +1,27 @@
+.help-content {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #899779;
+}
+.help-content h3 {
+  font-size: 13px;
+  color: #5f7750;
+  font-weight: 600;
+  margin: 22px 0 5px;
+}
+.help-content p {
+  margin: 10px 0;
+}
+.help-privacy {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: #eef3e5;
+  padding: 14px;
+  border-radius: 7px;
+  font-size: 11px;
+  margin-top: 23px;
+}
+.help-privacy svg {
+  flex-shrink: 0;
+}

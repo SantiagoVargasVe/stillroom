@@ -1,0 +1,49 @@
+@media (max-width: 520px) {
+  .editor-shell {
+    grid-template-columns: 1fr;
+  }
+  .tool-rail {
+    flex-direction: row;
+    padding: 6px 13px;
+    border-right: 0;
+    border-bottom: 1px solid #e2e7db;
+    gap: 12px;
+  }
+  .rail-button {
+    height: 37px;
+    width: auto;
+    flex-direction: row;
+    padding: 8px 12px;
+    gap: 7px;
+  }
+  .rail-button svg {
+    width: 17px;
+  }
+  .rail-button span {
+    font-size: 10px;
+  }
+  .rail-bottom {
+    margin: 0 0 0 auto;
+  }
+  .canvas-header {
+    padding-inline: 12px;
+    min-height: 43px;
+  }
+  .canvas-stage {
+    min-height: 300px;
+    height: 80vw;
+  }
+  .canvas-footer {
+    padding: 0 9px;
+  }
+  .dimensions {
+    font-size: 8px;
+    gap: 6px;
+  }
+  .canvas-footer .icon-button {
+    width: 27px;
+  }
+  .canvas-footer select {
+    width: 47px;
+  }
+}

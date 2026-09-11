@@ -1,0 +1,21 @@
+.video-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 5px;
+  font-size: 11px;
+  color: #819671;
+  margin: 17px 0 0;
+}
+.video-details dt {
+  color: #a0ad93;
+}
+.video-details dd {
+  margin: 0;
+  text-align: right;
+}
+.video-error {
+  color: #a96c4e;
+  background: #fff4ec;
+  padding: 15px 24px;
+  font-size: 12px;
+}

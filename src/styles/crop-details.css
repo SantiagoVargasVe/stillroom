@@ -1,0 +1,46 @@
+.size-readout {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #adb69e;
+}
+.size-readout > span {
+  flex: 1;
+  border: 1px solid #e4e9da;
+  border-radius: 5px;
+  padding: 9px 11px;
+  color: #6c7b5e;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+.size-readout small {
+  margin-right: 15px;
+  color: #a3ad96;
+  font-size: 10px;
+}
+.reset-crop {
+  padding: 0;
+  margin-top: 12px;
+  font-size: 10px;
+}
+.panel-tip {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  background: #f4f6ec;
+  color: #93a17c;
+  padding: 13px 12px;
+  border: 1px solid #edf0e4;
+  border-radius: 6px;
+  margin-top: auto;
+}
+.panel-tip > span {
+  font-size: 23px;
+  font-weight: 300;
+}
+.panel-tip p {
+  color: #879774;
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 0;
+}

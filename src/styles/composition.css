@@ -1,0 +1,62 @@
+.composition-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.composition-grid i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #ffffff70;
+  box-shadow: 0 0 1px #0004;
+}
+.composition-grid b {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #ffffff70;
+  box-shadow: 0 0 1px #0004;
+}
+.preview-tag {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background: #162e22c9;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.canvas-footer {
+  height: 46px;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #f8faf4;
+  border-top: 1px solid #e1e6d8;
+}
+.dimensions {
+  color: #87917d;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-divider {
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background: #dce3d2;
+}
+.canvas-footer select {
+  color: #7d8a71;
+  border: 0;
+  background: transparent;
+  width: 62px;
+  font-size: 11px;
+}

@@ -1,0 +1,63 @@
+.canvas-stage {
+  flex: 1;
+  min-height: 462px;
+  height: min(54vh, 630px);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  background-color: #edf0e6;
+  background-image: radial-gradient(#b9c1ad60 0.6px, transparent 0.6px);
+  background-size: 9px 9px;
+}
+.canvas-stage.zoomed {
+  align-items: safe center;
+  justify-content: safe center;
+}
+.image-positioner {
+  position: relative;
+  flex-shrink: 0;
+  box-shadow: 0 9px 25px #32412e20;
+  line-height: 0;
+  margin: 35px;
+}
+.photo-canvas {
+  display: block;
+  max-width: none;
+  background-image: conic-gradient(
+    #e2e2e2 25%,
+    #fff 0 50%,
+    #e2e2e2 0 75%,
+    #fff 0
+  );
+  background-size: 18px 18px;
+}
+.ReactCrop {
+  display: block;
+  overflow: hidden;
+}
+.ReactCrop__child-wrapper {
+  overflow: visible;
+}
+.ReactCrop__crop-selection {
+  border: 1px solid #ffffffd9;
+  background-image: none;
+  box-shadow: 0 0 0 9999em #18271a55;
+}
+.ReactCrop__drag-handle::after {
+  border: 0;
+  background: white;
+  box-shadow: 0 1px 4px #10230c45;
+  border-radius: 0;
+}
+.ReactCrop__drag-handle.ord-nw::after,
+.ReactCrop__drag-handle.ord-ne::after,
+.ReactCrop__drag-handle.ord-sw::after,
+.ReactCrop__drag-handle.ord-se::after {
+  width: 9px;
+  height: 9px;
+}
+.ReactCrop.crop-inactive .ReactCrop__crop-selection {
+  border-color: transparent;
+}

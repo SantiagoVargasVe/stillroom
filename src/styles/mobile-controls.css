@@ -1,0 +1,47 @@
+@media (max-width: 520px) {
+  .settings-panel {
+    padding: 20px 17px;
+  }
+  .settings-panel fieldset {
+    gap: 6px 17px;
+  }
+  .ratio-grid {
+    gap: 4px;
+  }
+  .ratio-button {
+    font-size: 8px;
+    height: 47px;
+  }
+  .ratio-shape {
+    transform: scale(0.85);
+  }
+  .section-label {
+    font-size: 7px;
+  }
+  .select-wrap {
+    padding: 0 7px;
+    gap: 5px;
+  }
+  .select-wrap select {
+    font-size: 10px;
+  }
+  .size-readout {
+    gap: 5px;
+  }
+  .size-readout > span {
+    padding: 9px 5px;
+    font-size: 10px;
+  }
+  .size-readout small {
+    margin-right: 6px;
+  }
+  .transform-buttons {
+    gap: 4px;
+  }
+  .transform-buttons svg {
+    width: 16px;
+  }
+  .panel-tip p {
+    font-size: 11px;
+  }
+}

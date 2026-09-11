@@ -1,0 +1,51 @@
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 27px 20px;
+}
+.benefits > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.benefits > div > svg {
+  color: #99a284;
+  flex-shrink: 0;
+}
+.benefits p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 10px;
+  color: #9ca58f;
+}
+.benefits strong {
+  color: #7d8a70;
+  font-size: 11px;
+  font-weight: 500;
+}
+.app-footer {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 18px 4% 24px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  color: #a7af9b;
+  font-size: 10px;
+}
+.app-footer button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #8e9b7f;
+}
+.local-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}

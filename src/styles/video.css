@@ -1,0 +1,44 @@
+.video-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 278px;
+  border: 1px solid #dfe5d8;
+  border-radius: 11px;
+  overflow: hidden;
+  background: white;
+}
+.video-main {
+  min-width: 0;
+}
+.video-stage {
+  height: min(49vh, 560px);
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf0e6;
+  background-image: radial-gradient(#b9c1ad60 0.6px, transparent 0.6px);
+  background-size: 9px 9px;
+}
+.video-stage:has(video) {
+  background: #1f2923;
+}
+.video-stage video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.video-empty-icon {
+  display: grid;
+  place-items: center;
+  width: 66px;
+  height: 66px;
+  background: #e4ebd7;
+  color: #859a6b;
+  border: 1px solid #d9e3ca;
+  border-radius: 18px;
+}
+.video-empty small {
+  font-size: 10px;
+  color: #a3ad97;
+  margin-top: 5px;
+}

@@ -1,0 +1,55 @@
+.select-wrap {
+  border: 1px solid #e0e6d5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 11px;
+  height: 36px;
+  color: #88957a;
+}
+.select-wrap select {
+  background: transparent;
+  color: #66765a;
+  border: 0;
+  min-width: 0;
+  flex: 1;
+  font-size: 11px;
+  height: 100%;
+}
+.control-hint {
+  color: #9aa28f;
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 9px 0 0;
+}
+.transform-buttons {
+  display: flex;
+  gap: 8px;
+}
+.transform-buttons button {
+  flex: 1;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e5eadc;
+  border-radius: 5px;
+  color: #8c997d;
+}
+.transform-buttons button:hover,
+.transform-buttons button[aria-pressed="true"] {
+  background: #edf2e5;
+  color: #46613c;
+  border-color: #acba99;
+}
+.transform-buttons > span {
+  width: 1px;
+  height: 19px;
+  margin: auto 1px;
+  background: #e8edde;
+}
+.micro-label {
+  color: #a1aa96;
+  font-size: 8px;
+  letter-spacing: 0.6px;
+}

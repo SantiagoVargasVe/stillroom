@@ -1,0 +1,64 @@
+.export-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-field {
+  font-size: 11px;
+  color: #859573;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.form-field input,
+.form-field select,
+.full-select {
+  background: white;
+  border: 1px solid #dce4d0;
+  border-radius: 6px;
+  padding: 10px 12px;
+  color: #5c734a;
+  width: 100%;
+  font-size: 11px;
+}
+.form-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: #81926f;
+}
+input[type="checkbox"] {
+  accent-color: #486841;
+  width: 14px;
+  height: 14px;
+}
+.export-summary {
+  border-radius: 6px;
+  background: #edf3e4;
+  padding: 12px;
+  display: flex;
+  gap: 9px;
+  color: #789562;
+  font-size: 11px;
+}
+.export-submit {
+  width: 100%;
+  min-height: 43px;
+}
+.export-footnote {
+  color: #a0ad90;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 14px 0 0;
+}
+.error-message {
+  color: #a5573d;
+  font-size: 11px;
+}

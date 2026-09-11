@@ -1,0 +1,49 @@
+.editor-shell {
+  display: grid;
+  grid-template-columns: 68px minmax(0, 1fr) 278px;
+  border: 1px solid #dfe5d8;
+  border-radius: 11px;
+  overflow: hidden;
+  min-height: 560px;
+  background: #fff;
+  box-shadow: 0 3px 12px #31412804;
+}
+.tool-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 17px 8px 12px;
+  background: #fcfdf9;
+  border-right: 1px solid #e2e7db;
+}
+.rail-button {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 49px;
+  color: #9aa190;
+  border-radius: 7px;
+}
+.rail-button span {
+  font-size: 8px;
+  font-weight: 500;
+}
+.rail-button:hover {
+  background: #f0f3e9;
+}
+.rail-button.active {
+  color: #466342;
+  background: #e9eedd;
+}
+.rail-bottom {
+  margin-top: auto;
+  color: #c7cebd;
+}
+.tiny-plus {
+  font-size: 20px;
+  font-weight: 300;
+}
