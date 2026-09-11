@@ -1,0 +1,9 @@
+node_modules/
+dist/
+public/vendor/
+test-results/
+playwright-report/
+tests/fixtures/*.ARW
+.DS_Store
+*.tsbuildinfo
+.env*
